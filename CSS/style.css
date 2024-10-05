@@ -1,0 +1,46 @@
+body{
+    background-color: gray;
+}
+.logo{
+    height: 70px;
+    width: 70px;
+    
+}
+.navbar{
+    background-color: rgb(179, 179, 179);
+}
+header {
+    width: 100%; 
+     
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 10px; 
+}
+
+.navbar {
+    display: flex;
+    align-items: center; 
+    width: 100%; 
+}
+
+.logo {
+    margin-right: auto; 
+}
+
+nav {
+    flex-grow: 1; 
+    text-align: right; 
+}
+
+nav ul {
+    display: flex; 
+    list-style: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+nav ul li {
+    margin-left: 20px; 
+}
+
