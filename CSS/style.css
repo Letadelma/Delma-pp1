@@ -1,22 +1,16 @@
 body{
-    background-color: gray;
+    color: black;
 }
+
 .logo{
     height: 70px;
     width: 70px;
     
 }
+
 .navbar{
     background-color: rgb(179, 179, 179);
-}
-header {
-    width: 100%; 
-     
-    display: flex;
-    justify-content: space-between; 
-    align-items: center; 
-    padding: 10px; 
-}
+} 
 
 .navbar {
     display: flex;
@@ -43,4 +37,37 @@ nav ul {
 nav ul li {
     margin-left: 20px; 
 }
+
+.title {
+    background: url("../Img/stock-photo-lock-mark-cybersecurity-internet-protect-attacks-from-a-hacker-concept-of-password-privacy-on-an-2493802703.jpg");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    font-family: "open sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s ease;
+    height: 90vh;
+    background-blend-mode: overlay; 
+  }  
+  h1{
+    text-align: center;
+    font-size: 100px;
+    color: #cce8eb;
+    box-shadow: 10px 10px 10px black;
+    background-color: #00000088
+  }
+  p{
+    text-align: center;
+    font-size: 50px;
+    color: #cce8eb;
+    background-color: #00000088
+
+  }
+
+    
+
+
 
